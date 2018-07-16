@@ -9,16 +9,18 @@
     <module>myAppWeb</module>
     <module>myAppCore</module>
   </modules>
+  
   	<properties>
 		<!--  propriétés qui seront héritées par tous les modules-->
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		
+		<!--  Pensez également à régler UTF8 dans éclipse ( windows/preferences/general/workspace/ Selectioner UTF8) -->
 	</properties>
   
-  
+  <!-- version 1 sans jboss -->
    <build>
   <finalName>myApp</finalName> <!-- Faciliter le nom de la page qu'on affiche fichier qui sera crcéer : myApp.war -->
   </build>
+  
 </project>
